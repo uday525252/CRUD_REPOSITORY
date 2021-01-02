@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+      {% for i in movie_list %}
+      <table border="1">
+      <tr>
+        <td><h1>{{i.title}}</h1></td>
+        <td><h1>{{i.hero}}</h1></td>
+        <td><h1>{{i.heroine}}</h1></td>
+        <td><h1>{{i.releasedate}}</h1></td>
+      </tr>
+      </table>
+
+
+      {% endfor %}
+
+
+  </body>
+</html>
